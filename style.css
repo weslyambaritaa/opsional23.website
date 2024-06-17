@@ -53,6 +53,12 @@ nav ul li a:hover{
   margin: 150px;
   width: 250px;
   border-radius: 150px;
+  animation-name: slideDown;
+  animation-duration: 1s;
+}
+
+@keyframes slideDown{
+  from{transform: translateX(-3%);}
 }
 
 .menu-icon{
